@@ -2,7 +2,7 @@
 ### 0. Introduction
 This repository shows how [error recovery](https://www.gnu.org/software/bison/manual/html_node/Error-Recovery.html) works in Flex/Bison.  
 ### 1. Calculator
-The most stupid calculator because it only suports `+` operator, but still enough for doing error recovery. Including [scanner.l](), [parser.y]() and of course, the [Makefile]() and the [sample input file]().
+The most stupid calculator because it only suports `+` operator, but still enough for doing error recovery. Including [scanner.l](scanner.l), [parser.y](parser.y) and of course, the [Makefile](Makefile) and the [sample input file](test.cal).
 ### 2. Error recovery
 The input test case is:
 ```
