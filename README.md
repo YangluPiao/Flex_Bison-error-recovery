@@ -125,7 +125,10 @@ After parsing `3+4;`, the parser hits a `5`, and then looks for a `+`, but what 
 
 ### 3. References
 [Flex and Bison](http://aquamentus.com/flex_bison.html)
+
 [GNU Bison](https://www.gnu.org/software/bison/)
+
 [Error Handling](http://docs.oracle.com/cd/E19504-01/802-5880/6i9k05dh4/index.html)
+
 [Unix System Services Programming Tools](https://www.ibm.com/support/knowledgecenter/SSLTBW_1.13.0/com.ibm.zos.r13.bpxa600/toc.htm)
 
