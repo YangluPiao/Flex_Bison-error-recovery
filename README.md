@@ -123,4 +123,9 @@ Notice that `8` is also causing a syntax error. This is a little bit complicated
 
 After parsing `3+4;`, the parser hits a `5`, and then looks for a `+`, but what it actually gets is a `6`, so it will report the error is `near 6`. Then it hits a `7`, again, it will look for a `+`, but here comes an `8`, BOOM, syntax error. But since `yyclearin` is enabled, parser will eat up `8`, so for the last `expr`, it will be something like `+9;` which is definitely an invalid expr, so the result `17` is not shown.
 
+### 3. References
+[Flex and Bison](http://aquamentus.com/flex_bison.html)
+[GNU Bison](https://www.gnu.org/software/bison/)
+[Error Handling](http://docs.oracle.com/cd/E19504-01/802-5880/6i9k05dh4/index.html)
+[Unix System Services Programming Tools](https://www.ibm.com/support/knowledgecenter/SSLTBW_1.13.0/com.ibm.zos.r13.bpxa600/toc.htm)
 
